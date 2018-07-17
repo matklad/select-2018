@@ -1,5 +1,4 @@
-#[macro_use]
-extern crate crossbeam_channel;
+#![feature(rust_2018_preview, use_extern_macros)]
 
 mod concurrency;
 

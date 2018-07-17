@@ -1,7 +1,10 @@
+cargo-features = ["edition"]
+
 [package]
 name = "macro_select"
 version = "0.1.0"
 authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+edition = "2018"
 
 [dependencies]
 crossbeam-channel = "0.2"
